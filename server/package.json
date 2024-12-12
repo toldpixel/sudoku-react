@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@koa/router": "^13.1.0",
+    "@types/koa": "^2.15.0",
+    "@types/koa__cors": "^5.0.0",
+    "@types/koa-bodyparser": "^4.3.12",
+    "koa": "^2.15.3",
+    "koa-bodyparser": "^4.4.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "@types/koa-cors": "^0.0.6",
+    "@types/koa-router": "^7.4.8",
+    "@types/node": "^22.10.2",
+    "cors": "^2.8.5",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2"
+  }
+}
